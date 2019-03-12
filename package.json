@@ -27,9 +27,10 @@
     "watch:css": "onchange \"src/scss\" -- run-s build:css",
     "watch:js": "onchange \"src/js\" -- run-s build:js",
     "watch:images": "onchange \"src/images\" -- run-s build:images",
-    "watch": "run-p serve watch:*"
+    "watch": "run-p serve watch:*",
+    "start": "run-s build watch"
   },
-  "devDependencies": {
+  "dependencies": {
     "autoprefixer": "^9.0.1",
     "browser-sync": "^2.12.8",
     "eslint": "^5.2.0",
