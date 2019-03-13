@@ -62,3 +62,7 @@
 # Footer
 --------------------------------------------------------------*/
 @import "layout/footer";
+
+.testing {
+	width: percentage(5/7);
+}
