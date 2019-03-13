@@ -11,7 +11,7 @@ function browserSync(done) {
     server: {
       baseDir: 'src'
     },
-    //open: false
+    open: false
   });
   done();
 }
