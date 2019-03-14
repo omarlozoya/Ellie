@@ -1,1 +1,1 @@
-web: npm run build watch -p $PORT
+web: npm run build watch
