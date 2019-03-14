@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
-app.set('port', process.env.PORT);
-app.listen(app.get('port'));
+app.listen(process.env.PORT);
 
 (function () {
   const win = window
